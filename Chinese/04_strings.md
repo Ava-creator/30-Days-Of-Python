@@ -1,14 +1,14 @@
 <div align="center">
   <h1> 30 天 Python：第四天 - Strings</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" "www.linkedin.com/in/oludayo-adeoye" >
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+<a class="header-badge" target="_blank" href="https://twitter.com/Dbillion7">
+    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Dbillion7?style=social">
   </a>
 
 <sub>作者:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<a "www.linkedin.com/in/oludayo-adeoye"  target="_blank">Oludayo adeoye</a><br>
 <small> 第二版：2021 年 7 月</small>
 </sub>
 
@@ -78,11 +78,11 @@ print(multiline_string)
 
 ```py
 
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Oludayo'
+last_name = 'oludayo'
 space = ' '
 full_name = first_name  +  space + last_name
-print(full_name) # Asabeneh Yetayeh
+print(full_name) # Oludayo adeoye
 # 使用 len() 内置函数获取字符串的长度
 print(len(first_name))  # 8
 print(len(last_name))   # 7
@@ -139,8 +139,8 @@ In every programming language it starts with "Hello, World!"
 
 ```py
 # 仅字符串
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Oludayo'
+last_name = 'oludayo'
 language = 'Python'
 formated_string = 'I am %s %s. I teach %s' %(first_name, last_name, language)
 print(formated_string)
@@ -162,8 +162,8 @@ print(formated_string) # 输出 "The following are python libraries:['Django', '
 
 ```py
 
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Oludayo'
+last_name = 'oludayo'
 language = 'Python'
 formated_string = 'I am {} {}. I teach {}'.format(first_name, last_name, language)
 print(formated_string)
@@ -349,13 +349,13 @@ print(challenge.rfind('th')) # 17
 有关字符串格式化的更多信息，请查看此[链接](https://www.programiz.com/python-programming/methods/string/format)
 
 ```py
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Oludayo'
+last_name = 'oludayo'
 age = 250
 job = 'teacher'
 country = 'Finland'
 sentence = 'I am {} {}. I am a {}. I am {} years old. I live in {}.'.format(first_name, last_name, age, job, country)
-print(sentence) # I am Asabeneh Yetayeh. I am 250 years old. I am a teacher. I live in Finland.
+print(sentence) # I am Oludayo adeoye. I am 250 years old. I am a teacher. I live in Finland.
 
 radius = 10
 pi = 3.14

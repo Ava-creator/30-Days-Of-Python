@@ -1,14 +1,14 @@
 <div align="center">
   <h1> 30 天 Python：第二天 - 变量, 内置函数</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" "www.linkedin.com/in/oludayo-adeoye" >
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+<a class="header-badge" target="_blank" href="https://twitter.com/Dbillion7">
+    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Dbillion7?style=social">
   </a>
 
 <sub>作者:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<a "www.linkedin.com/in/oludayo-adeoye"  target="_blank">Oludayo adeoye</a><br>
 <small> 第二版：2021 年 7 月</small>
 </sub>
 
@@ -103,8 +103,8 @@ _示例：_
 
 ```py
 # Python 中的变量
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Oludayo'
+last_name = 'oludayo'
 country = 'Finland'
 city = 'Helsinki'
 age = 250
@@ -239,7 +239,7 @@ print('num_int', int(num_str))      # 10
 print('num_float', float(num_str))  # 10.6
 
 # 字符串 到 列表
-first_name = 'Asabeneh'
+first_name = 'Oludayo'
 print(first_name)               # 'Asabeneh'
 first_name_to_list = list(first_name)
 print(first_name_to_list)            # ['A', 's', 'a', 'b', 'e', 'n', 'e', 'h']

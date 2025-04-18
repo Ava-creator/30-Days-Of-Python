@@ -128,7 +128,7 @@ print(p.city)
 ```sh
 # 输出
 Asabeneh
-Yetayeh
+Oludayo
 250
 Finland
 Helsinki
@@ -157,7 +157,7 @@ print(p.person_info())
 
 ```sh
 # 输出
-Asabeneh Yetayeh今年250岁。他住在Finland的Helsinki。
+Oludayo adeoye今年250岁。他住在Finland的Helsinki。
 ```
 
 ### 对象默认方法
@@ -186,7 +186,7 @@ print(p2.person_info())
 
 ```sh
 # 输出
-Asabeneh Yetayeh今年250岁。他住在Finland的Helsinki。
+Oludayo adeoye今年250岁。他住在Finland的Helsinki。
 John Doe今年30岁。他住在Nomanland的Noman city。
 ```
 
@@ -222,7 +222,7 @@ print(p2.skills)
 
 ```sh
 # 输出
-Asabeneh Yetayeh今年250岁。他住在Finland的Helsinki。
+Oludayo adeoye今年250岁。他住在Finland的Helsinki。
 John Doe今年30岁。他住在Nomanland的Noman city。
 ['HTML', 'CSS', 'JavaScript']
 []

@@ -101,11 +101,11 @@ print(multiline_string)
 We can connect to strings together. Merging or connecting to strings together is called concatenation.See the example below
 
   ```py
-  first_name = 'Asabeneh'
-  last_name = 'Yetayeh'
+  first_name = 'Oludayo'
+  last_name = 'oludayo'
   space = ' '
   full_name = first_name  +  space + last_name
-  print(full_name) # Asabeneh Yetayeh
+  print(full_name) # Oludayo adeoye
   # Checking length of a string using len() builtin function
   print(len(first_name))  # 8
   print(len(last_name))   # 7
@@ -159,8 +159,8 @@ The "%" operator is used to format a set of variables enclosed in a "tuple" (a f
 
 ```py
 # Strings only
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Oludayo'
+last_name = 'oludayo'
 language = 'Python'
 formatted_string = 'I am %s %s. I teach %s' %(first_name, last_name, language)
 print(formatted_string)
@@ -180,8 +180,8 @@ This is formating is introduced in python version 3.
 
 ```py
 
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Oludayo'
+last_name = 'oludayo'
 language = 'Python'
 formatted_string = 'I am {} {}. I teach {}'.format(first_name, last_name, language)
 print(formatted_string)
@@ -333,12 +333,12 @@ print(challenge.find('th')) # 0
 * format()	formats string into nicer output    
     More about string formating check this [link](https://www.programiz.com/python-programming/methods/string/format)
 ```py
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Oludayo'
+last_name = 'oludayo'
 job = 'teacher'
 country = 'Finland'
 sentence = 'I am {} {}. I am a {}. I live in {}.'.format(first_name, last_name, job, country)
-print(sentence) # I am Asabeneh Yetayeh. I am a teacher. I live in Finland.
+print(sentence) # I am Oludayo adeoye. I am a teacher. I live in Finland.
 
 radius = 10
 pi = 3.14

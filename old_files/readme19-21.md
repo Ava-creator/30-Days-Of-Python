@@ -874,7 +874,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 125
 >>> from mypackage import greet
 >>> greet.greet_person('Asabeneh', 'Yetayeh')
-'Asabeneh Yetayeh, welcome to 30DaysOfPython Challenge!'
+'Oludayo adeoye, welcome to 30DaysOfPython Challenge!'
 >>> 
 ```
 As you can see our package works perfect. The package folder contains a special file called __init__.py which stores the package's content. If we put  __init__.py in the package folder, python start recognizes it as a package.
@@ -1032,7 +1032,7 @@ print(p.city)
 ```sh
 # output
 Asabeneh
-Yetayeh
+Oludayo
 250
 Finland
 Helsinki
@@ -1062,7 +1062,7 @@ print(p.person_info())
 
 ```sh
 # output
-Asabeneh Yetayeh is 250 year old. He lives in Helsinki, Finland
+Oludayo adeoye is 250 year old. He lives in Helsinki, Finland
 ```
 
 ### Object default methods
@@ -1091,7 +1091,7 @@ print(p2.person_info())
 
 ```sh
 # output
-Asabeneh Yetayeh is 250 year old. He lives in Helsinki, Finland.
+Oludayo adeoye is 250 year old. He lives in Helsinki, Finland.
 John Doe is 30 year old. He lives in Noman city, Nomanland.
 ```
 
@@ -1127,7 +1127,7 @@ print(p2.skills)
 
 ```sh
 # output
-Asabeneh Yetayeh is 250 year old. He lives in Helsinki, Finland.
+Oludayo adeoye is 250 year old. He lives in Helsinki, Finland.
 John Doe is 30 year old. He lives in Noman city, Nomanland.
 ['HTML', 'CSS', 'JavaScript']
 []

@@ -1,6 +1,6 @@
-<div align="center">   <h1> 30 Days Of Python: Day 7 - Sets</h1>   <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&amp;logo=linkedin&amp;style=social">   </a>   <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">   <img src="https://img.shields.io/twitter/follow/asabeneh?style=social" alt="Twitter Follow">   </a>
+<div align="center">   <h1> 30 Days Of Python: Day 7 - Sets</h1>   <a class="header-badge" target="_blank" "www.linkedin.com/in/oludayo-adeoye" >   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&amp;logo=linkedin&amp;style=social">   </a> <a class="header-badge" target="_blank" href="https://twitter.com/Dbillion7">   <img src="https://img.shields.io/twitter/follow/asabeneh?style=social" alt="Twitter Follow">   </a>
 </div>
-<p data-md-type="paragraph"><sub data-md-type="raw_html">Author: <a data-md-type="raw_html" href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br> <small data-md-type="raw_html"> Second Edition: July, 2021</small></sub></p>
+<p data-md-type="paragraph"><sub data-md-type="raw_html">Author: <a data-md-type="raw_html" "www.linkedin.com/in/oludayo-adeoye"  target="_blank">Oludayo adeoye</a><br> <small data-md-type="raw_html"> Second Edition: July, 2021</small></sub></p>
 <div data-md-type="block_html"></div>
 
 [&lt;&lt; Day 6](../06_Day_Tuples/06_tuples.md) | [Day 8 &gt;&gt;](../08_Day_Dictionaries/08_dictionaries.md)

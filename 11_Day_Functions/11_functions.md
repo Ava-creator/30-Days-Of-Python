@@ -1,14 +1,14 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 11 - Functions</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" "www.linkedin.com/in/oludayo-adeoye" >
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+<a class="header-badge" target="_blank" href="https://twitter.com/Dbillion7">
+    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Dbillion7?style=social">
   </a>
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<a "www.linkedin.com/in/oludayo-adeoye"  target="_blank">Oludayo adeoye</a><br>
 <small> Second Edition: July, 2021</small>
 </sub>
 
@@ -69,8 +69,8 @@ Function can be declared without parameters.
 
 ```py
 def generate_full_name ():
-    first_name = 'Asabeneh'
-    last_name = 'Yetayeh'
+    first_name = 'Oludayo'
+    last_name = 'oludayo'
     space = ' '
     full_name = first_name + space + last_name
     print(full_name)
@@ -90,8 +90,8 @@ Function can also return values, if a function does not have a return statement,
 
 ```py
 def generate_full_name ():
-    first_name = 'Asabeneh'
-    last_name = 'Yetayeh'
+    first_name = 'Oludayo'
+    last_name = 'oludayo'
     space = ' '
     full_name = first_name + space + last_name
     return full_name

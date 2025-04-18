@@ -393,8 +393,8 @@ Function can be declared without a parameter.
 **Example:**
 ```py
   def generate_full_name ():
-      first_name = 'Asabeneh'
-      last_name = 'Yetayeh'
+      first_name = 'Oludayo'
+      last_name = 'oludayo'
       space = ' '
       full_name = first_name + space + last_name
       print(full_name)
@@ -412,8 +412,8 @@ Function can also return values, if a function does not return values the value 
 
 ```py
 def generate_full_name ():
-    first_name = 'Asabeneh'
-    last_name = 'Yetayeh'
+    first_name = 'Oludayo'
+    last_name = 'oludayo'
     space = ' '
     full_name = first_name + space + last_name
     return full_name

@@ -1,7 +1,7 @@
 <div align="center">
-<h1> 30 Days Of Python: Day 4 - Strings</h1> <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/"> <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&amp;logo=linkedin&amp;style=social"> </a> <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh"> <img src="https://img.shields.io/twitter/follow/asabeneh?style=social" alt="Twitter Follow"> </a>
+<h1> 30 Days Of Python: Day 4 - Strings</h1> <a class="header-badge" target="_blank" "www.linkedin.com/in/oludayo-adeoye" > <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&amp;logo=linkedin&amp;style=social"> </a> <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh"> <img src="https://img.shields.io/twitter/follow/asabeneh?style=social" alt="Twitter Follow"> </a>
 </div>
-<p data-md-type="paragraph"><sub data-md-type="raw_html">Author: <a data-md-type="raw_html" href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br> <small data-md-type="raw_html"> Second Edition: July, 2021</small></sub></p>
+<p data-md-type="paragraph"><sub data-md-type="raw_html">Author: <a data-md-type="raw_html" "www.linkedin.com/in/oludayo-adeoye"  target="_blank">Oludayo adeoye</a><br> <small data-md-type="raw_html"> Second Edition: July, 2021</small></sub></p>
 <div data-md-type="block_html"></div>
 
 [&lt;&lt; Day 3](../03_Day_Operators/03_operators.md) | [Day 5 &gt;&gt;](../05_Day_Lists/05_lists.md)
@@ -65,11 +65,11 @@ print(multiline_string)
 문자열을 함께 연결할 수 있습니다. 문자열을 병합하거나 연결하는 것을 연결이라고 합니다. 아래 예를 참조하십시오.
 
 ```py
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Oludayo'
+last_name = 'oludayo'
 space = ' '
 full_name = first_name  +  space + last_name
-print(full_name) # Asabeneh Yetayeh
+print(full_name) # Oludayo adeoye
 # Checking the length of a string using len() built-in function
 print(len(first_name))  # 8
 print(len(last_name))   # 7
@@ -124,8 +124,8 @@ Python에는 문자열 형식을 지정하는 여러 가지 방법이 있습니�
 
 ```py
 # Strings only
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Oludayo'
+last_name = 'oludayo'
 language = 'Python'
 formated_string = 'I am %s %s. I teach %s' %(first_name, last_name, language)
 print(formated_string)
@@ -147,8 +147,8 @@ print(formated_string) # "The following are python libraries:['Django', 'Flask',
 
 ```py
 
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Oludayo'
+last_name = 'oludayo'
 language = 'Python'
 formated_string = 'I am {} {}. I teach {}'.format(first_name, last_name, language)
 print(formated_string)
@@ -333,13 +333,13 @@ print(challenge.rfind('th')) # 1
 - format(): 문자열을 더 나은 출력으로 포맷합니다.<br> 문자열 형식에 대한 자세한 내용은 이 [링크](https://www.programiz.com/python-programming/methods/string/format) 를 확인하세요.
 
 ```py
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Oludayo'
+last_name = 'oludayo'
 age = 250
 job = 'teacher'
 country = 'Finland'
 sentence = 'I am {} {}. I am a {}. I am {} years old. I live in {}.'.format(first_name, last_name, age, job, country)
-print(sentence) # I am Asabeneh Yetayeh. I am 250 years old. I am a teacher. I live in Finland.
+print(sentence) # I am Oludayo adeoye. I am 250 years old. I am a teacher. I live in Finland.
 
 radius = 10
 pi = 3.14

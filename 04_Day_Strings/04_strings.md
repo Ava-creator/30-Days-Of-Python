@@ -1,14 +1,14 @@
 <div align="center">
   <h1> 30 Days Of Python: Day 4 - Strings</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
+  <a class="header-badge" target="_blank" "www.linkedin.com/in/oludayo-adeoye" >
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
+<a class="header-badge" target="_blank" href="https://twitter.com/Dbillion7">
+    <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/Dbillion7?style=social">
   </a>
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
+<a "www.linkedin.com/in/oludayo-adeoye"  target="_blank">Oludayo adeoye</a><br>
 <small> Second Edition: July, 2021</small>
 </sub>
 
@@ -75,11 +75,11 @@ print(multiline_string)
 We can connect strings together. Merging or connecting strings is called concatenation. See the example below:
 
 ```py
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Oludayo'
+last_name = 'oludayo'
 space = ' '
 full_name = first_name  +  space + last_name
-print(full_name) # Asabeneh Yetayeh
+print(full_name) # Oludayo adeoye
 # Checking the length of a string using len() built-in function
 print(len(first_name))  # 8
 print(len(last_name))   # 7
@@ -135,8 +135,8 @@ The "%" operator is used to format a set of variables enclosed in a "tuple" (a f
 
 ```py
 # Strings only
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Oludayo'
+last_name = 'oludayo'
 language = 'Python'
 formated_string = 'I am %s %s. I teach %s' %(first_name, last_name, language)
 print(formated_string)
@@ -158,8 +158,8 @@ This formatting is introduced in Python version 3.
 
 ```py
 
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Oludayo'
+last_name = 'oludayo'
 language = 'Python'
 formated_string = 'I am {} {}. I teach {}'.format(first_name, last_name, language)
 print(formated_string)
@@ -344,13 +344,13 @@ print(challenge.rfind('th')) # 17
    More about string formatting check this [link](https://www.programiz.com/python-programming/methods/string/format)
 
 ```py
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
+first_name = 'Oludayo'
+last_name = 'oludayo'
 age = 250
 job = 'teacher'
 country = 'Finland'
 sentence = 'I am {} {}. I am a {}. I am {} years old. I live in {}.'.format(first_name, last_name, age, job, country)
-print(sentence) # I am Asabeneh Yetayeh. I am 250 years old. I am a teacher. I live in Finland.
+print(sentence) # I am Oludayo adeoye. I am 250 years old. I am a teacher. I live in Finland.
 
 radius = 10
 pi = 3.14
