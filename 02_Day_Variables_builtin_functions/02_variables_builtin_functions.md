@@ -1,302 +1,296 @@
 <div align="center">
-  <h1> 30 Days Of Python: Day 2 - Variables, Builtin Functions</h1>
-  <a class="header-badge" target="_blank" href="https://www.linkedin.com/in/asabeneh/">
-  <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
-  </a>
-  <a class="header-badge" target="_blank" href="https://twitter.com/Asabeneh">
-  <img alt="Twitter Follow" src="https://img.shields.io/twitter/follow/asabeneh?style=social">
-  </a>
-
-<sub>Author:
-<a href="https://www.linkedin.com/in/asabeneh/" target="_blank">Asabeneh Yetayeh</a><br>
-<small> Second Edition: July, 2021</small>
-</sub>
-
+  <h1>Python Adventure: Day 2 - Variables and Functions for Little Coders!</h1>
+  <sub>
+    by Dayo Dayo<br>
+    Last edited 13 days ago
+  </sub>
 </div>
 
-[<< Day 1](../readme.md) | [Day 3 >>](../03_Day_Operators/03_operators.md)
+Join Valerie Vole and Fritz Fox on today's exciting journey into the world of Python!  
+We'll explore magical containers called "variables" and help our animal friends pack their backpacks with code treasures.
 
-![30DaysOfPython](../images/30DaysOfPython_banner3@2x.png)
+---
 
 - [📘 Day 2](#-day-2)
   - [Built in functions](#built-in-functions)
-  - [Variables](#variables)
-    - [Declaring Multiple Variable in a Line](#declaring-multiple-variable-in-a-line)
+  - [Variables & Magical Backpacks](#variables--magical-backpacks)
+    - [Declaring Multiple Variables in a Line](#declaring-multiple-variables-in-a-line)
   - [Data Types](#data-types)
-  - [Checking Data types and Casting](#checking-data-types-and-casting)
-  - [Numbers](#numbers)
-  - [💻 Exercises - Day 2](#-exercises---day-2)
-    - [Exercises: Level 1](#exercises-level-1)
-    - [Exercises: Level 2](#exercises-level-2)
+  - [Checking Data Types and Casting](#checking-data-types-and-casting)
+  - [Numbers and Treasures](#numbers-and-treasures)
+  - [Introducing Python Functions – Magic Spells](#introducing-python-functions--magic-spells)
+  - [💻 Adventure Exercises – Day 2](#-adventure-exercises--day-2)
 
 # 📘 Day 2
 
 ## Built in functions
 
-In Python we have lots of built-in functions. Built-in functions are globally available for your use that mean you can make use of the built-in functions without importing or configuring. Some of the most commonly used Python built-in functions are the following: _print()_, _len()_, _type()_, _int()_, _float()_, _str()_, _input()_, _list()_, _dict()_, _min()_, _max()_, _sum()_, _sorted()_, _open()_, _file()_, _help()_, and _dir()_. In the following table you will see an exhaustive list of Python built-in functions taken from [python documentation](https://docs.python.org/3.9/library/functions.html).
+Python provides loads of built-in functions that are ready to use without any extra setup. Our adventure guides (Valerie and Fritz) will use these functions as magical tools to inspect their treasures. Some common ones include: _print()_, _len()_, _type()_, _int()_, _float()_, _str()_, _input()_, _list()_, _dict()_, _min()_, _max()_, _sum()_, _sorted()_, and even _help()_ and _dir()_.
 
 ![Built-in Functions](../images/builtin-functions.png)
 
-Let us open the Python shell and start using some of the most common built-in functions.
+Let’s begin our quest in the Python shell and experiment with these magic tools!
 
 ![Built-in functions](../images/builtin-functions_practice.png)
 
-Let us practice more by using different built-in functions
+Watch how Valerie and Fritz use these functions to reveal secrets of their magical items. Notice that Python even reserves certain words (reserved words) as special; these are like enchanted spells you cannot use to name your backpacks!
 
 ![Help and Dir Built in Functions](../images/help_and_dir_builtin.png)
 
-As you can see from the terminal above, Python has got reserved words. We do not use reserved words to declare variables or functions. We will cover variables in the next section.
-
-I believe, by now you are familiar with built-in functions. Let us do one more practice of built-in functions and we will move on to the next section.
+As seen above, reserved words are off limits for naming your variables. Now, let’s pack our adventure backpacks!
 
 ![Min Max Sum](../images/builtin-functional-final.png)
 
-## Variables
+## Variables & Magical Backpacks
 
-Variables store data in a computer memory. Mnemonic variables are recommended to use in many programming languages. A mnemonic variable is a variable name that can be easily remembered and associated. A variable refers to a memory address in which data is stored.
-Number at the beginning, special character, hyphen are not allowed when naming a variable. A variable can have a short name (like x, y, z), but a more descriptive name (firstname, lastname, age, country) is highly recommended.
+Variables are like magical backpacks that store all kinds of treasures—from numbers and words to secret messages. Just like every adventurer needs a uniquely named backpack, variables require names that follow some friendly rules:
 
-Python Variable Name Rules
+- Must start with a letter or an underscore (think of these as your secret symbols).
+- Cannot start with a number.
+- Can only contain letters, numbers, and underscores.
+- And remember, names are case-sensitive. _magicPack_ and _Magicpack_ are not the same!
 
-- A variable name must start with a letter or the underscore character
-- A variable name cannot start with a number
-- A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and \_ )
-- Variable names are case-sensitive (firstname, Firstname, FirstName and FIRSTNAME) are different variables)
-
-Here are some example of valid variable names:
+### Valid Backpack Names (Variables)
 
 ```shell
-firstname
-lastname
-age
-country
-city
+acorn_count
+treasure
 first_name
 last_name
-capital_city
-_if # if we want to use reserved word as a variable
-year_2021
-year2021
-current_year_2021
-birth_year
-num1
-num2
+_country
 ```
 
-Invalid variables names
+Invalid names would be like using broken or forbidden symbols:
 
 ```shell
 first-name
 first@name
-first$name
-num-1
-1num
+1treasure
 ```
 
-We will use standard Python variable naming style which has been adopted by many Python developers. Python developers use snake case(snake_case) variable naming convention. We use underscore character after each word for a variable containing more than one word(eg. first_name, last_name, engine_rotation_speed).  The example below is an example of standard naming of variables, underscore is required when the variable name is more than one word.
+We use snake_case naming for our backpacks to keep things neat (for example: first_name, last_name).
 
-When we assign a certain data type to a variable, it is called variable declaration. For instance in the example below my first name is assigned to a variable first_name. The equal sign is an assignment operator. Assigning means storing data in the variable. The equal sign in Python is not equality as in Mathematics.
+### Adventurer’s Example: Packing the Backpacks
 
-_Example:_
+Below is an example showing how Valerie and Fritz pack and update their variable backpacks.
 
 ```py
-# Variables in Python
-first_name = 'Asabeneh'
-last_name = 'Yetayeh'
-country = 'Finland'
-city = 'Helsinki'
-age = 250
-is_married = True
-skills = ['HTML', 'CSS', 'JS', 'React', 'Python']
-person_info = {
-   'firstname':'Asabeneh',
-   'lastname':'Yetayeh',
-   'country':'Finland',
-   'city':'Helsinki'
-   }
+# Valerie's Variable Acorn Counter
+acorn_count = 5              # Create the backpack with 5 acorns
+acorn_count = acorn_count + 3  # Add 3 more acorns to the backpack
+acorn_count = acorn_count - 2  # Share or lose 2 acorns
+
+print("Valerie's acorn count:", acorn_count)
 ```
 
-Let us use the _print()_ and _len()_ built-in functions. Print function takes unlimited number of arguments. An argument is a value which we can be passed or put inside the function parenthesis, see the example below.
-
-**Example:**
-
 ```py
-print('Hello, World!') # The text Hello, World! is an argument
-print('Hello',',', 'World','!') # it can take multiple arguments, four arguments have been passed
-print(len('Hello, World!')) # it takes only one argument
+# Fritz's Treasure Chest
+treasure = "shiny"    # Initially, the treasure is shiny
+treasure = "sparkly"  # Then, Fritz notices it is sparkly
+treasure = "golden"   # Finally, he calls it golden
+
+print("Fritz's treasure is now:", treasure)
 ```
 
-Let us print and also find the length of the variables declared at the top:
+### Unpacking Our Magical Backpacks
 
-**Example:**
+See how you can create a new adventure variable and then check what’s inside:
 
 ```py
-# Printing the values stored in the variables
-
-print('First name:', first_name)
-print('First name length:', len(first_name))
-print('Last name: ', last_name)
-print('Last name length: ', len(last_name))
-print('Country: ', country)
-print('City: ', city)
-print('Age: ', age)
-print('Married: ', is_married)
-print('Skills: ', skills)
-print('Person information: ', person_info)
+magic_pack = 8  # Our new magical backpack!
+print("Magic pack contains:", magic_pack)
 ```
 
-### Declaring Multiple Variable in a Line
+### Declaring Multiple Variables in a Line
 
-Multiple variables can also be declared in one line:
-
-**Example:**
+For quick packing, you can declare multiple variables at once. Just like packing several treasures in one go:
 
 ```py
-first_name, last_name, country, age, is_married = 'Asabeneh', 'Yetayeh', 'Helsink', 250, True
+first_name, last_name, country, age, is_married = 'Valerie', 'Vole', 'Wonderland', 10, False
 
 print(first_name, last_name, country, age, is_married)
 print('First name:', first_name)
-print('Last name: ', last_name)
-print('Country: ', country)
-print('Age: ', age)
-print('Married: ', is_married)
+print('Last name:', last_name)
+print('Country:', country)
+print('Age:', age)
+print('Married:', is_married)
 ```
 
-Getting user input using the _input()_ built-in function. Let us assign the data we get from a user into first_name and age variables.
-**Example:**
+You can even collect treasures from fellow adventurers using the built-in _input()_ function:
 
 ```py
-first_name = input('What is your name: ')
-age = input('How old are you? ')
+first_name = input('What is your adventurer name: ')
+age = input('How many years of adventure? ')
 
-print(first_name)
-print(age)
+print("Welcome to the journey,", first_name)
+print("Age:", age)
 ```
+
+---
 
 ## Data Types
 
-There are several data types in Python. To identify the data type we use the _type_ built-in function. I would like to ask you to focus on understanding different data types very well. When it comes to programming, it is all about data types. I introduced data types at the very beginning and it comes again, because every topic is related to data types. We will cover data types in more detail in their respective sections.
-
-## Checking Data types and Casting
-
-- Check Data types: To check the data type of certain data/variable we use the _type_
-  **Examples:**
+In our magical world, every treasure has a type. Data types tell us what kind of treasure a variable holds. We can use the _type_ function to peek inside our backpacks:
 
 ```py
-# Different python data types
-# Let's declare variables with various data types
+first_name = 'Valerie'   # a string treasure
+age = 10                 # an integer treasure
+pi_value = 3.14          # a float treasure
 
-first_name = 'Asabeneh'     # str
-last_name = 'Yetayeh'       # str
-country = 'Finland'         # str
-city= 'Helsinki'            # str
-age = 250                   # int, it is not my real age, don't worry about it
-
-# Printing out types
-print(type('Asabeneh'))          # str
-print(type(first_name))          # str
-print(type(10))                  # int
-print(type(3.14))                # float
-print(type(1 + 1j))              # complex
-print(type(True))                # bool
-print(type([1, 2, 3, 4]))        # list
-print(type({'name':'Asabeneh'})) # dict
-print(type((1,2)))               # tuple
-print(type(zip([1,2],[3,4])))    # zip
+print(type(first_name))  # shows: <class 'str'>
+print(type(age))         # shows: <class 'int'>
+print(type(pi_value))    # shows: <class 'float'>
 ```
 
-- Casting: Converting one data type to another data type. We use _int()_, _float()_, _str()_, _list_, _set_
-  When we do arithmetic operations string numbers should be first converted to int or float otherwise it will return an error. If we concatenate a number with a string, the number should be first converted to a string. We will talk about concatenation in String section.
+---
 
-  **Examples:**
+## Checking Data Types and Casting
+
+Before using a treasure, it’s wise to check its type and even change its form (casting) when needed. For instance:
 
 ```py
-# int to float
+# Converting an integer treasure to a float:
 num_int = 10
-print('num_int',num_int)         # 10
 num_float = float(num_int)
-print('num_float:', num_float)   # 10.0
-
-# float to int
-gravity = 9.81
-print(int(gravity))             # 9
-
-# int to str
-num_int = 10
-print(num_int)                  # 10
-num_str = str(num_int)
-print(num_str)                  # '10'
-
-# str to int or float
-num_str = '10.6'
-num_float = float(num_str)
-print('num_float', float(num_str))  # 10.6
-num_int = int(num_float)
-print('num_int', int(num_int))      # 10
-
-# str to list
-first_name = 'Asabeneh'
-print(first_name)               # 'Asabeneh'
-first_name_to_list = list(first_name)
-print(first_name_to_list)            # ['A', 's', 'a', 'b', 'e', 'n', 'e', 'h']
+print('Converted treasure:', num_float)
 ```
 
-## Numbers
+Casting lets you transform treasures so you can combine them in your spells (arithmetic operations)!
 
-Number data types in Python:
+```py
+# From string treasure to a list of characters:
+name = "Valerie"
+name_list = list(name)
+print(name_list)  # Reveals each letter as a separate treasure
+```
 
-1. Integers: Integer(negative, zero and positive) numbers
-   Example:
-   ... -3, -2, -1, 0, 1, 2, 3 ...
+---
 
-2. Floating Point Numbers(Decimal numbers)
-   Example:
-   ... -3.5, -2.25, -1.0, 0.0, 1.1, 2.2, 3.5 ...
+## Numbers and Treasures
 
-3. Complex Numbers
-   Example:
-   1 + j, 2 + 4j, 1 - 1j
+Our world is full of numbers that come in different forms:
 
-🌕 You are awesome. You have just completed day 2 challenges and you are two steps ahead on your way to greatness. Now do some exercises for your brain and muscles.
+1. **Integers:** Like counting acorns (..., -3, -2, -1, 0, 1, 2, 3, …)
+2. **Floats:** Treasures with decimals (e.g., 3.14, 2.71)
+3. **Complex Numbers:** A bit magical, with a twist (1 + 1j)
 
-## 💻 Exercises - Day 2
+🌕 You are awesome—completing these challenges means you are growing stronger on your adventure!
+
+---
+
+## Introducing Python Functions – Magic Spells
+
+Functions are like magic spells that perform a special task whenever you call them. Write your spell once, then use it again and again to help your friends on their journey.
+
+### Creating Our First Function
+
+Let’s define a simple greeting spell for adventurers:
+
+```py
+def greet_user():
+    print("Hello, adventurer!")
+    
+# Casting the greeting spell
+greet_user()
+```
+
+- **Define Function:** Use the keyword `def` to start your spell.
+- **Name Function:** Give it a magical name like `greet_user`.
+- **Add Code:** Write the code (the spell words) indented beneath the definition.
+- **Call the Spell:** Simply call the function’s name to activate the magic.
+
+---
+
+## 💻 Adventure Exercises – Day 2
+
+Now it’s your turn to pack your own coding backpack and cast some magic spells!
 
 ### Exercises: Level 1
 
-1. Inside 30DaysOfPython create a folder called day_2. Inside this folder create a file named variables.py
-2. Write a python comment saying 'Day 2: 30 Days of python programming'
-3. Declare a first name variable and assign a value to it
-4. Declare a last name variable and assign a value to it
-5. Declare a full name variable and assign a value to it
-6. Declare a country variable and assign a value to it
-7. Declare a city variable and assign a value to it
-8. Declare an age variable and assign a value to it
-9. Declare a year variable and assign a value to it
-10. Declare a variable is_married and assign a value to it
-11. Declare a variable is_true and assign a value to it
-12. Declare a variable is_light_on and assign a value to it
-13. Declare multiple variable on one line
+1. Inside the *30DaysOfPython* folder, create a `day_2` folder. In that folder, create a file called `variables.py`.
+2. Start with a Python comment:  
+  `# Python Adventure: Day 2 - Variables and Functions for Little Coders!`
+3. Declare a variable **first_name** and assign it your adventurer name (e.g., `"Valerie"`).
+4. Declare a variable **last_name** and assign it your family name (e.g., `"Vole"`).
+5. Create a variable **full_name** by combining **first_name** and **last_name**.
+6. Declare a variable **country** for your adventure land (e.g., `"Wonderland"`).
+7. Declare a variable **city** where your adventure begins (e.g., `"Rabbit Hole"`).
+8. Declare a variable **age** with your adventure age (e.g., `10`).
+9. Declare a variable **year** representing the current adventure year (e.g., `2023`).
+10. Create a variable **is_married** (True or False) as a fun fact about your journey.
+11. Declare a variable **is_ready** (or **is_light_on**) to signal if you are ready for adventure.
+12. Try declaring multiple variables on one line (like packing several treasures at once), for example:  
+   ```py
+   first_name, last_name, country, age, is_married = 'Valerie', 'Vole', 'Wonderland', 10, False
+   ```
 
 ### Exercises: Level 2
 
-1. Check the data type of all your variables using type() built-in function
-1. Using the _len()_ built-in function, find the length of your first name
-1. Compare the length of your first name and your last name
-1. Declare 5 as num_one and 4 as num_two
-1. Add num_one and num_two and assign the value to a variable total
-1. Subtract num_two from num_one and assign the value to a variable diff
-1. Multiply num_two and num_one and assign the value to a variable product
-1. Divide num_one by num_two and assign the value to a variable division
-1. Use modulus division to find num_two divided by num_one and assign the value to a variable remainder
-1. Calculate num_one to the power of num_two and assign the value to a variable exp
-1. Find floor division of num_one by num_two and assign the value to a variable floor_division
-1. The radius of a circle is 30 meters.
-    1. Calculate the area of a circle and assign the value to a variable name of _area_of_circle_
-    2. Calculate the circumference of a circle and assign the value to a variable name of _circum_of_circle_
-    3. Take radius as user input and calculate the area.
-1. Use the built-in input function to get first name, last name, country and age from a user and store the value to their corresponding variable names
-1. Run help('keywords') in Python shell or in your file to check for the Python reserved words or keywords
+1. Use the _type()_ built-in function to check the type of all your adventure variables. For example:  
+   ```py
+   print(type(first_name))  # <class 'str'>
+   print(type(age))         # <class 'int'>
+   ```
+2. Use _len()_ to find the length (number of characters) in your **first_name**.  
+   ```py
+   print(len(first_name))  # e.g., 7 for "Valerie"
+   ```
+3. Compare the lengths of your **first_name** and **last_name**.  
+   ```py
+   print(len(first_name) > len(last_name))  # True or False
+   ```
+4. Declare two numerical treasures: assign `5` to **num_one** and `4` to **num_two**. Perform the following operations:  
+   - Add them and save the result in **total**.  
+   - Subtract them and save the result in **diff**.  
+   - Multiply them to get **product**.  
+   - Divide **num_one** by **num_two** and call it **division**.  
+   - Use modulus division for **remainder** (what’s left when dividing).  
+   - Calculate **num_one** raised to the power of **num_two** as **exp**.  
+   - Perform floor division (integer division) and store it in **floor_division**.  
+   Example:  
+   ```py
+   num_one, num_two = 5, 4
+   total = num_one + num_two
+   diff = num_one - num_two
+   product = num_one * num_two
+   division = num_one / num_two
+   remainder = num_one % num_two
+   exp = num_one ** num_two
+   floor_division = num_one // num_two
+   print(total, diff, product, division, remainder, exp, floor_division)
+   ```
+5. The radius of a circle is `30` meters. Perform the following:  
+   - Calculate the area of the circle; store it as **area_of_circle**.  
+    Formula: `area = π * radius ** 2`  
+   - Calculate the circumference; store it as **circum_of_circle**.  
+    Formula: `circumference = 2 * π * radius`  
+   - Then, let the circle’s radius be found with a user input and calculate its area.  
+   Example:  
+   ```py
+   import math
+   radius = 30
+   area_of_circle = math.pi * radius ** 2
+   circum_of_circle = 2 * math.pi * radius
+   print("Area:", area_of_circle, "Circumference:", circum_of_circle)
 
-🎉 CONGRATULATIONS ! 🎉
+   # User input for radius
+   radius = float(input("Enter the radius of the circle: "))
+   area_of_circle = math.pi * radius ** 2
+   print("Area with user input:", area_of_circle)
+   ```
+6. Use the _input()_ function to get your **first_name**, **last_name**, **country**, and **age** from the user and store them.  
+   ```py
+   first_name = input("Enter your first name: ")
+   last_name = input("Enter your last name: ")
+   country = input("Enter your country: ")
+   age = int(input("Enter your age: "))
+   print(first_name, last_name, country, age)
+   ```
+7. In the Python shell (or your file), run `help('keywords')` to discover the reserved words (magical incantations) you cannot use as variable names.  
+   ```py
+   help('keywords')
+   ```
 
-[<< Day 1](../readme.md) | [Day 3 >>](../03_Day_Operators/03_operators.md)
+---
+
+Happy coding and may your adventure be filled with magical discoveries!
